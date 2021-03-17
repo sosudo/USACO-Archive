@@ -26,4 +26,4 @@ Print a single character, either A or B: the winner of the recorded game.
 https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone
 
 # Status
-Unsolved
+Solved
