@@ -23,9 +23,17 @@ Print a single character, either A or B: the winner of the recorded game.
 > Output: A
 
 # Reference
-https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone
+Problem Link: https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone<br>
+Problem ID: basketballoneonone<br>
+Runtime Limit: 1s<br>
+Memory Limit: 1024MB<br>
+Difficulty: 1.7 (Very Easy)<br>
+Sample Data Link: https://open.kattis.com/problems/basketballoneonone/file/statement/samples.zip<br>
+Authors: Jingbo Shang, Etienne Vouga<br>
+Source: 2019 ICPC Mid-Central Regional<br>
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 
 # Status
-Solved<br>
+Annotated<br>
 Runtime: 0.06s<br>
-Filesize: 745 B<br>
+Filesize: 2485B<br>
