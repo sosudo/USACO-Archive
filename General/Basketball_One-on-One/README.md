@@ -19,11 +19,13 @@ Print a single character, either A or B: the winner of the recorded game.
 > Output: A
 
 # Sample 2
-> Input A2B2A1B2A2B1A2B2A1B2A1A1B1A1A2<br>
+> Input: A2B2A1B2A2B1A2B2A1B2A1A1B1A1A2<br>
 > Output: A
 
 # Reference
 https://open.kattis.com/contests/mcpc19open/problems/basketballoneonone
 
 # Status
-Solved
+Solved<br>
+Runtime: 0.06s<br>
+Filesize: 745 B<br>
