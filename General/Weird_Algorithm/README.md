@@ -24,4 +24,6 @@ Memory Limit: 512MB<br>
 Difficulty: Introductory (Very Easy)
 
 # Status
-Unsolved
+Annotated<br>
+Average Runtime: 0.154285714s<br>
+Filesize: 1932B
