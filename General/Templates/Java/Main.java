@@ -3,8 +3,9 @@ import java.util.StringTokenizer;
 public class Main {
 	static sys io = new sys();
 	public static void main(String[] args) {
-		String a = io.next();
-		io.println(a);
+		/*
+		Code
+		*/
 		io.close();
 	}
 }
@@ -27,4 +28,9 @@ class sys extends PrintWriter {
 	public int nextInt() { return Integer.parseInt(next()); }
 	public double nextDouble() { return Double.parseDouble(next()); }
 	public long nextLong() { return Long.parseLong(next()); }
+	public boolean nextBool() { return Boolean.parseBoolean(next()); }
+	public char nextChar() {
+	    String value = next();
+	    return value.charAt(0);
+	}
 }
