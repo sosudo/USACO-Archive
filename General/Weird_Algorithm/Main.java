@@ -1,15 +1,22 @@
 import java.io.*;
 import java.util.StringTokenizer;
 public class Main {
-	static sys io = new sys();
+	static sys io = new sys(); 
 	public static void main(String[] args) {
-		int n = io.nextInt();
-		String ans = String.valueOf(n);
-		while(n != 1) {
-		    n = n % 2 == 0 ? n / 2 : (n * 3) + 1; 
+		long n = io.nextLong(); // Taking the input as a long
+		// When you submit you can look at the test cases, and by looking at the cases we can see that using an int causes us to get wrong answers or timeout errors.
+		// This occurs due to the sheer size of the numbers.
+		// So we use a long to alleviate these errors.
+		String ans = String.valueOf(n); // Our answer variable is a String which we will concatenate to later.
+		// String.valueOf(n) type castes n from a long to a String
+		while(n != 1) { // We will be appending the value of n to ans and then changing n to the next value in the sequence. 
+		// Since the sequence ends at 1, we keep going until n isn't 1.
+		    n = n % 2 == 0 ? n / 2 : (n * 3) + 1; // If n is divisible by 2, n = n / 2, else n = (n * 3) + 1.
+		    // This is using ternary in the place of an if-else conditional.
 		    ans = ans + " " + String.valueOf(n);
+		    // Concatenate our answer with a space and the new value of n.
 		}
-		io.print(ans);
+		io.print(ans); // Print ans
 		io.close();
 	}
 }
