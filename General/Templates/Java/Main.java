@@ -29,8 +29,5 @@ class sys extends PrintWriter {
 	public double nextDouble() { return Double.parseDouble(next()); }
 	public long nextLong() { return Long.parseLong(next()); }
 	public boolean nextBool() { return Boolean.parseBoolean(next()); }
-	public char nextChar() {
-	    String value = next();
-	    return value.charAt(0);
-	}
+	public char nextChar() { return next().charAt(0); }
 }
