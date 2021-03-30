@@ -29,6 +29,6 @@ Sample Data Link: <a href="http://www.usaco.org/current/data/paint_bronze_dec15.
 Author: Brian Dean
 
 # Status
-Solved<br>
+Annotated<br>
 Average Runtime: 0.1834s<br>
 Filesize: 497B
