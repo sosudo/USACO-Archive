@@ -1,6 +1,6 @@
 # Java Template
 
-## KattIO
+## Sys
 > io.next() for Strings<br>
 > io.nextInt() for ints<br>
 > io.nextLong() for longs<br>
