@@ -24,6 +24,6 @@ Sample Data Link: <a href="http://www.usaco.org/current/data/teleport_bronze_feb
 Author: Brian Dean
 
 # Status
-Solved<br>
+Annotated<br>
 Average Runtime: 0.171s<br>
 Filesize: 253B
