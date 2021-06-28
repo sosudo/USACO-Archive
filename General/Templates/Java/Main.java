@@ -8,6 +8,17 @@ public class Main {
 		*/
 		io.close();
 	}
+	public static int count(String word, char character) {
+	    int count = 0;
+	    for(int i = 0; i <= word.length(); i++) {
+	        try {
+    	        if(word.charAt(i) == character) {
+    	            count++;
+    	        }
+	        } catch(Exception e) {}
+	    }
+	    return count;
+	}
 }
 class sys extends PrintWriter {
 	private BufferedReader r;
